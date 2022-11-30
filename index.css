@@ -8,7 +8,7 @@ body {
     width:100vw;
     height:100vh;
     overflow:hidden;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans', 'sans-serif';
 }
 #loading {
     width: 100vw;
