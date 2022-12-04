@@ -1,4 +1,6 @@
 # Portfolio Website
+Static HTML Website with cloud based SQL support
+
 
 ## Live Demo Hosted on Github Pages
 
