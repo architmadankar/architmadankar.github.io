@@ -6,3 +6,4 @@
 
 ### Issues with Github Pages
 * Doesn't Support PHP 
+* Deploy on your Localhost on XAMPP to get PHP support
