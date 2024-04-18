@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flipping Cards</title>
+</head>
+<link rel="stylesheet" href="styles.css">
+<body>
+    <h1>Card Match Game</h1>
+    <table>
+    <tr>
+        <td>
+        <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+            <div class="flip-card-front"></div>
+            <div class="flip-card-back">
+                <img src="images/ace.png" alt="Ace" class="flip-card">
+            </div>
+            </div>
+        </div>
+        </td>
+        <td>
+            <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"></div>
+                <div class="flip-card-back">
+                <img src="images/heart.png" alt="Ace" class="flip-card">
+                </div>
+            </div>
+            </div>
+        </td>
+            <td>
+                <div class="flip-card" onclick="flipCard(this)">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front"></div>
+                    <div class="flip-card-back">
+                    <img src="images/ace.png" alt="Ace" class="flip-card">
+                    </div>
+                </div>
+                </div>
+            </td>
+        <td>
+            <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"></div>
+                <div class="flip-card-back">
+                <img src="images/king.webp" alt="Ace" class="flip-card">
+                </div>
+            </div>
+            </div>
+        </td>
+        <tr>
+        <td>
+            <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"></div>
+                <div class="flip-card-back">
+                <img src="images/king.webp" alt="Ace" class="flip-card">
+                </div>
+            </div>
+            </div>
+        </td>
+        <td>
+            <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"></div>
+                <div class="flip-card-back">
+                <img src="images/heart.png" alt="Ace" class="flip-card">
+                </div>
+            </div>
+            </div>
+        </td>
+        <td>
+            <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"></div>
+                <div class="flip-card-back">
+                <img src="images/diamond.png" alt="Ace" class="flip-card">
+                </div>
+            </div>
+            </div>
+        </td>
+        <td>
+            <div class="flip-card" onclick="flipCard(this)">
+            <div class="flip-card-inner">
+                <div class="flip-card-front"></div>
+                <div class="flip-card-back">
+                <img src="images/diamond.png" alt="Ace" class="flip-card">
+                </div>
+            </div>
+            </div>
+        </td>
+    </tr>
+    </table>
+    <script src="move.js"></script>
+    <button onclick="resetCards()">Reset</button>
+</body>
+</html>

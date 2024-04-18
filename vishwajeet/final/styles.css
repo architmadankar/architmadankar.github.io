@@ -1,0 +1,99 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('images/aaaa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.header {
+    border: 3px solid #000000;
+    padding: 15px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 8px;
+    text-align: center;
+    border-bottom: 1px solid #020000;
+    background-color: #e27a7a1f;
+}
+
+img {
+    max-width: 130px;
+    border-radius: 10%;
+    float: center; 
+    margin-right: 5px;
+}
+
+h1 {
+    margin-top: 0;
+}
+
+.show-description-btn {
+    display: block;
+    margin-top: 10px;
+}
+
+.description {
+    display: none;
+}
+
+.food-image {
+    border: 3px solid #ffcc00;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.food-image:hover {
+    opacity: 0.8;
+}
+
+.food-description {
+    text-align: center;
+}
+
+.button {
+    display: inline-block;
+    padding: 5px 5px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #585858;
+    background-color: #b8a5ff;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #64ff64;
+}
+
+.content {
+    flex-grow: 1;
+    text-align: justify; 
+    display: grid;
+    justify-content: space-between; 
+    align-items: center; 
+}   
+.image img {
+    width: 100%;
+    max-width: 400px;
+    border: 3px solid #ffbf49;
+    transition: opacity 0.3s;
+    margin-right: 20px;
+}
+.instruction {
+    text-align: justify;
+    padding-bottom: 1;
+
+}
