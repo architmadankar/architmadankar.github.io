@@ -1,0 +1,3 @@
+User-agent: *
+
+Sitemap: https://architmadankar.github.io/sitemap.xml
