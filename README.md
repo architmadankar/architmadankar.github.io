@@ -3,3 +3,6 @@ See my personal website resume <a href="https://architmadankar.github.io/">Click
 
 ## About Me
 --Still working--
+
+## SEO Performance
+![SEO](<img/SEO performance.png>)
